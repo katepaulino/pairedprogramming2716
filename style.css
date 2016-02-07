@@ -25,6 +25,11 @@ footer {
 span {
   font-size: 30px;
 }
+input {
+  margin: 9px;
+  font-family: Tahoma;
+  /*padding: 10px;*/
+}
 
 #logo {
   float: left;
@@ -70,6 +75,27 @@ span {
 .social {
    float: right;
  }
+ .checkList{
+   position: relative;
+   font-family: Tahoma;
+   color: grey;
+ }
+
+ .checkList #listLeft {
+   position: absolute;
+   top: 42px;
+   left: 62px;
+   width: 100%;
+ }
+ .checkList #listRight {
+   position: absolute;
+   top: 42px;
+   left: 500px;
+   width: 100%;
+}
+.selection_checkbox:checked + .selection_label {
+  text-decoration:line-through
+}
 
 .divider{
   position:relative;
