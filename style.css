@@ -1,16 +1,21 @@
 body {
   font-family: 'Yellowtail', cursive;
   max-width: 75%;
+  margin-top: 40px;
+  margin-left: 140px;
+  margin-right: 80px;
+  margin-bottom: 40px;
 }
 
 header {
   margin: 30px;
-  border-bottom: 5px ridge gray;
-  padding-bottom: 20px;
+  /*border-bottom: 5px solid gray;*/
+  padding-bottom: 40px;
 }
 
 main {
-  margin: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
   border-bottom: 5px solid gray;
 }
 
@@ -26,18 +31,70 @@ span {
   font-size: 30px;
 }
 
+a:link {
+  color: #FFFFFF;
+}
+a:visited {
+  color: #FFFFFF;
+}
+a:hover {
+  color: #FFFFFF;
+}
+a:active {
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+#line {
+  background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
+}
+
+#delicious {
+  font-size: 36px;
+}
+
+#pizza {
+  height: 100%;
+  width: 100%;
+}
+
 #logo {
   float: left;
   height: 50px;
   width: 50px;
 }
+
 #underLogo {
   font-family: Tahoma;
   font-size: 10px;
+  margin-left: 30px;
+  margin-top: -10px;
+  color: gray;
 }
 
 #underH1 {
   font-family: Tahoma;
+  font-size: 12px;
+  color: gray;
+}
+
+#author{
+  font-family: Georgia;
+  font-size: 22px;
+  color: #000000;
+}
+
+#underFooter {
+  font-family: Georgia;
   font-size: 12px;
   color: gray;
 }
@@ -55,34 +112,41 @@ span {
   float: right;
   border: 20px;
   background-color: rgb(188, 112, 88);
-  font-family: Tahoma;
+  font-family: Georgia;
   font-size: 14px;
   padding: 10px;
   color: #FFFFFF;
 }
 
+#copyright {
+  font-family: Georgia;
+  color: gray;
+  font-size: 10px;
+}
+
 .instructions {
-  font-family: Tahoma;
+  font-family: Georgia;
   text-indent: 50px;
   color: gray;
 }
 
 .social {
    float: right;
+   margin-top: -30px;
  }
 
-.divider{
+.divider {
   position:relative;
   max-width:960px;
   margin:0 auto;
   overflow:hidden;
 }
-.center{
+.center {
   width:50px;
   height:50px;
   margin:0 auto;
 }
-.divider:before{
+.divider:before {
   position:absolute;
   content:"";
   border-bottom: 1px solid gray;
@@ -91,7 +155,7 @@ span {
   width:50%;
   top:0;
 }
-.divider:after{
+.divider:after {
   position:absolute;
   content:"";
   border-bottom: 1px solid gray;
