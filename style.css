@@ -1,0 +1,102 @@
+body {
+  font-family: 'Yellowtail', cursive;
+  max-width: 75%;
+}
+
+header {
+  margin: 30px;
+  border-bottom: 5px ridge gray;
+  padding-bottom: 20px;
+}
+
+main {
+  margin: 30px;
+  border-bottom: 5px solid gray;
+}
+
+h1 {
+  font-family: Impact;
+}
+
+footer {
+  margin: 30px;
+}
+
+span {
+  font-size: 30px;
+}
+
+#logo {
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+#underLogo {
+  font-family: Tahoma;
+  font-size: 10px;
+}
+
+#underH1 {
+  font-family: Tahoma;
+  font-size: 12px;
+  color: gray;
+}
+
+#printerIcon {
+  float: right;
+  font-size: 12px;
+}
+
+#authorPic {
+  float: left;
+}
+
+#share {
+  float: right;
+  border: 20px;
+  background-color: rgb(188, 112, 88);
+  font-family: Tahoma;
+  font-size: 14px;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.instructions {
+  font-family: Tahoma;
+  text-indent: 50px;
+  color: gray;
+}
+
+.social {
+   float: right;
+ }
+
+.divider{
+  position:relative;
+  max-width:960px;
+  margin:0 auto;
+  overflow:hidden;
+}
+.center{
+  width:50px;
+  height:50px;
+  margin:0 auto;
+}
+.divider:before{
+  position:absolute;
+  content:"";
+  border-bottom: 1px solid gray;
+  left:-30px;
+  height:25px;
+  width:50%;
+  top:0;
+}
+.divider:after{
+  position:absolute;
+  content:"";
+  border-bottom: 1px solid gray;
+  right:-30px;
+  top:0;
+  height:25px;
+  width:50%;
+}
